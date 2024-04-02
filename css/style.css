@@ -13,13 +13,31 @@ header{
 ul{
     list-style-type:none;
 }
-li{
+header li{
     display: inline-block;
     padding:0 10px;
 }
+footer li{
+    margin-top: 20px;
+}
+footer ul{
+    margin-top: 20%;
+}
 a{
     text-decoration: none;
+}
+header a{
     color: black;
+}
+footer a,i{
+    color: white;
+}
+footer strong{
+    color: white;
+    font-size: 25px;
+}
+footer .col20{
+    padding: 20px;
 }
 button{
     background-color: #0061ff;
@@ -28,10 +46,21 @@ button{
     padding: 10px;
     font-size: 17px;
 }
+select{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
 /*CLASS*/
 .container-full{
     width: 100%;
     margin: 0 auto;
+}
+.container1600{
+    margin: 0 auto;
+    max-width: 1200px;
 }
 .row{
     display: flex;
@@ -45,6 +74,10 @@ button{
 .col30{
     width: calc(100%/3);
 }
+.col20{
+    width: 20%;
+}
+
 /*BG-COLOR*/
 .bg-color-black{
     background-color: black;
@@ -52,7 +85,8 @@ button{
 .bg-color-lightblue{
     background-color: #b4d0e7;
 }
-/*align*/
+
+/*ALIGN*/
 .align-items-center{
     align-items: center;
 }
@@ -62,7 +96,12 @@ button{
 .align-center{
     text-align: center;
 }
+
 /*MARGIN*/
 .margin-left20{
     margin-left: 20px;
+}
+/*PADDING*/
+.padding40{
+    padding: 40px;
 }
