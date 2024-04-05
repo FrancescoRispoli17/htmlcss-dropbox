@@ -69,11 +69,6 @@ h1{
 h2{
     font-size: 40px;
 }
-strong{
-    font-size: 20px;
-    display: block;
-    margin:30px 0 10px 0;
-}
 
 /*CLASS*/
 .container-full{
@@ -104,6 +99,9 @@ strong{
     top:50px;
     left: 0;
 }
+.col60{
+    width: 60%;
+}
 .col10{
     width: 10%;
 }
@@ -122,6 +120,11 @@ strong{
 }
 .col100{
     width: 100%;
+}
+.col33 strong{
+    font-size: 20px;
+    display: block;
+    margin:30px 0 10px 0;
 }
 /*HEIGHT*/
 .height1000{
@@ -177,6 +180,9 @@ strong{
 .margin-top30{
     margin-top: 30px;
 }
+.margin-top15{
+    margin-top: 15px;
+}
 .margin-top150{
     margin-top: 150px;
 }
@@ -185,6 +191,9 @@ strong{
 }
 .margin-bot30{
     margin-bottom: 30px;
+}
+.margin-top-bot{
+    margin: 10px 0;
 }
 
 /*PADDING*/
@@ -203,6 +212,9 @@ strong{
 .padding{
     padding: 50px 35px 0 0;
 }
+.padding-team{
+    padding: 30px 0 0 30px;
+}
 .padding-arrow{
     padding: 80px 0 10px 0;
 }
@@ -215,8 +227,19 @@ strong{
 .padding-left5{
     padding-left: 5px;
 }
-
+.padding-button{
+    padding: 15px 40px;
+}
 
 .flex{
     display: flex;
+}
+.font-weight{
+    font-weight: 600;
+}
+.font-size{
+    font-size: 25px;
+}
+.font-size2{
+    font-size: 15px;
 }
