@@ -133,6 +133,10 @@ h2{
 .col33{
     width:calc(100%/3);
 }
+.col33-square{
+    width:calc(100% / 3);
+    height: calc(100vw /3);
+}
 .col33 button{
     padding: 15px 40px;
 }
