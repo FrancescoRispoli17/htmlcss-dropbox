@@ -56,11 +56,12 @@ button{
     padding: 10px;
     font-size: 17px;
 }
-select{
+footer select{
     border: none;
     background-color: black;
     color: white;
     font-size: 18px;
+    margin-left: 0;
 }
 h1{
     font-size: 70px;
@@ -68,6 +69,12 @@ h1{
 }
 h2{
     font-size: 40px;
+}
+
+
+/*ID*/
+#domande div{
+    display: flex;
 }
 
 /*CLASS*/
@@ -154,6 +161,10 @@ h2{
     transform: translate(-50%,-50%);
     filter: invert(100%);
     
+}
+.col100 i{
+    color: black;
+    margin-left: 30%;
 }
 
 /*HEIGHT*/
@@ -285,6 +296,9 @@ h2{
 .padding10-top-bot{
     padding: 10px 0;
 }
+.padding30-top-bot{
+    padding: 30px 0;
+}
 .padding30-left-right{
     padding: 0 30px;
 }
@@ -293,6 +307,9 @@ h2{
 }
 .padding-button{
     padding: 15px 40px;
+}
+.padding-bot{
+    padding-bottom: 50px;
 }
 
 /*FLEX*/
@@ -312,3 +329,7 @@ h2{
 .font-size2{
     font-size: 15px;
 }
+ /*BORDER*/
+ .border-bot{
+    border-bottom: 1px solid black;
+ }
