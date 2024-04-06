@@ -126,6 +126,20 @@ h2{
     display: block;
     margin:30px 0 10px 0;
 }
+.square{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.square img{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: invert(100%);
+    
+}
 
 /*HEIGHT*/
 .height1000{
@@ -138,6 +152,31 @@ h2{
 }
 .bg-color-lightblue{
     background-color: #b4d0e7;
+}
+.bg-color-square-green{
+    background-color: #A2D39B;
+}
+
+.bg-color-square-61082B{
+    background-color:#61082B;
+}
+.bg-color-square-0093CE{
+    background-color: #0093CE;
+}
+.bg-color-square-FF1C1C{
+    background-color:#FF1C1C;
+}
+.bg-color-square-D5001F{
+    background-color:#D5001F;
+}
+.bg-color-square-B4D0E7{
+    background-color:#B4D0E7;
+}
+.bg-color-square-0D2481{
+    background-color:#0D2481;
+}
+.bg-color-square-FFD830{
+    background-color:#FFD830;
 }
 
 /*COLOR*/
@@ -178,6 +217,9 @@ h2{
 .margin-top40{
     margin-top: 40px;
 }
+.margin-top60{
+    margin-top: 60px;
+}
 .margin-top30{
     margin-top: 30px;
 }
@@ -189,6 +231,9 @@ h2{
 }
 .margin-bot150{
     margin-bottom: 150px;
+}
+.margin-bot300{
+    margin-bottom: 300px;
 }
 .margin-bot30{
     margin-bottom: 30px;
@@ -217,7 +262,10 @@ h2{
     padding: 60px 65px 0 0;
 }
 .padding-team{
-    padding: 30px 0 0 30px;
+    padding: 40px 0 0 40px;
+}
+.padding-sqaure-section{
+    padding: 40px 40px 0 40px;
 }
 .padding-arrow{
     padding: 80px 0 10px 0;
