@@ -126,10 +126,12 @@ h2{
     display: block;
     margin:30px 0 10px 0;
 }
+
 /*HEIGHT*/
 .height1000{
     height: 1000px;
 }
+
 /*BG-COLOR*/
 .bg-color-black{
     background-color: black;
@@ -145,7 +147,6 @@ h2{
 .blue{
     color: #0061ff;
 }
-
 
 /*ALIGN*/
 .align-items-center{
@@ -212,6 +213,9 @@ h2{
 .padding{
     padding: 50px 35px 0 0;
 }
+.padding2{
+    padding: 60px 65px 0 0;
+}
 .padding-team{
     padding: 30px 0 0 30px;
 }
@@ -231,12 +235,17 @@ h2{
     padding: 15px 40px;
 }
 
+/*FLEX*/
 .flex{
     display: flex;
 }
+
+/*FONT WEIGHT*/
 .font-weight{
     font-weight: 600;
 }
+
+/*FONT SIZE*/
 .font-size{
     font-size: 25px;
 }
