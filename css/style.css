@@ -90,6 +90,21 @@ h2{
 .col40{
     width: 40%;
 }
+.col50{
+    width: 50%;
+    padding: 100px 0;
+}
+.col50 h2{
+    color:#61082B;
+    margin-left: 55%;
+}
+.col50 button{
+    border: none;
+    background-color: white;
+    padding: 10px 50px;
+    color: black;
+    margin-left: 20%;
+}
 .col70{
     width: 70%;
     position: relative;
@@ -168,9 +183,6 @@ h2{
 }
 .bg-color-square-D5001F{
     background-color:#D5001F;
-}
-.bg-color-square-B4D0E7{
-    background-color:#B4D0E7;
 }
 .bg-color-square-0D2481{
     background-color:#0D2481;
